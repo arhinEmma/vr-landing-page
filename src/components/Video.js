@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../modalVideo.scss';
 import ModalVideo from 'react-modal-video';
-
+import { BsPlayCircleFill } from 'react-icons/bs';
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -18,9 +18,9 @@ const Video = () => {
             videoId='NOk_M1Ib5F0'
             onClose={() => setOpen(false)}
           />
-          <div className='bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px]'>
+          <div className='bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px] flex items-center justify-center'>
             <div onClick={() => setOpen(!isOpen)} className='cursor-pointer'>
-              play
+              <BsPlayCircleFill className='text-4xl text-white/80 hover:text-white hover:scale-110 transition' />
             </div>
           </div>
         </div>
