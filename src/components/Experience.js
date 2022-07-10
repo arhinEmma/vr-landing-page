@@ -10,8 +10,8 @@ const Experience = () => {
         <div className='flex flex-col min-h-[480px] lg:space-x-20 lg:flex-row'>
           <div className='flex-1 flex space-x-6 items-center lg:space-x-12'>
             <div
-              data-aos-offset='400'
               data-aos='fade-down'
+              data-aos-offset='400'
               className='self-start'
             >
               <img src={Img1} alt='' />

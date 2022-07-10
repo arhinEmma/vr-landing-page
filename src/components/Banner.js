@@ -2,6 +2,7 @@ import React from 'react';
 
 // import image
 import Img from '../assets/img/banner-img.png';
+import Users from './Users';
 
 const Banner = () => {
   return (
@@ -15,7 +16,7 @@ const Banner = () => {
               data-aos-delay='500'
               className='text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug'
             >
-              Let’s Explore <br /> Three-Dimensional visual
+              Let’s Explore <br /> Three-Dimensional Visually.
             </h1>
             <p
               data-aos='fade-up'
@@ -28,7 +29,7 @@ const Banner = () => {
             <div
               data-aos='fade-up'
               data-aos-delay='700'
-              className='flex items-center space-x-4 text-[15px] max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none'
+              className='flex items-center space-x-4 text-[15px] max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none mb-12'
             >
               <button className='btn'>Get it now</button>
               <a
@@ -38,6 +39,7 @@ const Banner = () => {
                 Explore Device
               </a>
             </div>
+            <Users />
           </div>
           {/* image */}
           <div data-aos='fade-down' data-aos-delay='800'>
