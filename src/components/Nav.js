@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
   return (
     <nav>
-      <ul className='flex items-center space-x-8 text-[15px] font-secondary font-medium'>
+      <ul className='flex items-center space-x-12 font-secondary'>
         <li>
           <a href='#'>Home</a>
         </li>

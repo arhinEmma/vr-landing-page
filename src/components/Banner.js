@@ -29,7 +29,7 @@ const Banner = () => {
             <div
               data-aos='fade-down'
               data-aos-delay='700'
-              className='flex items-center space-x-4 text-[15px] font-medium max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none mb-12'
+              className='flex items-center space-x-4 max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none mb-12'
             >
               <button className='btn'>Get it now</button>
               <a
