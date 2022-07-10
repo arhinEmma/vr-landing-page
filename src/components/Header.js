@@ -1,7 +1,8 @@
 import React from 'react';
-
-// import logo
+// import components
 import Logo from '../assets/img/logo.svg';
+import Nav from './Nav';
+
 const Header = () => {
   return (
     <header
@@ -11,10 +12,14 @@ const Header = () => {
       data-aos-delay='900'
     >
       <div className='container mx-auto'>
-        {/* logo */}
-        <a href='#'>
-          <img className='h-[30px]' src={Logo} alt='' />
-        </a>
+        <div className='flex items-center justify-between'>
+          {/* logo */}
+          <a href='#'>
+            <img className='h-[30px]' src={Logo} alt='' />
+          </a>
+          {/* nav */}
+          <Nav />
+        </div>
       </div>
     </header>
   );

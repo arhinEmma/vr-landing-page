@@ -16,7 +16,7 @@ const App = () => {
     });
   }, []);
   return (
-    <div className='relative overflow-hidden before:hidden before:lg:flex before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-36'>
+    <div className='relative overflow-hidden before:hidden before:lg:flex before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px]'>
       <Header />
       <Banner />
       <Experience />

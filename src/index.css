@@ -4,9 +4,17 @@
 
 @layer base {
   body {
-    @apply font-primary bg-body text-white relative leading-relaxed font-extralight;
+    @apply font-secondary bg-body text-white relative leading-relaxed font-extralight;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary;
   }
   .btn {
-    @apply font-primary h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none;
+    @apply h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center;
   }
 }

@@ -12,14 +12,14 @@ const Banner = () => {
           {/* text */}
           <div>
             <h1
-              data-aos='fade-up'
+              data-aos='fade-down'
               data-aos-delay='500'
               className='text-3xl font-bold mb-8 lg:text-5xl lg:leading-snug'
             >
               Let’s Explore <br /> Three-Dimensional Visually.
             </h1>
             <p
-              data-aos='fade-up'
+              data-aos='fade-down'
               data-aos-delay='600'
               className='font-secondary mb-12 max-w-[440px] mx-auto lg:mx-0'
             >
@@ -27,9 +27,9 @@ const Banner = () => {
               real and you can play the game with a new style.
             </p>
             <div
-              data-aos='fade-up'
+              data-aos='fade-down'
               data-aos-delay='700'
-              className='flex items-center space-x-4 text-[15px] max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none mb-12'
+              className='flex items-center space-x-4 text-[15px] font-medium max-w-[320px] mx-auto lg:space-x-8 lg:mx-0 lg:max-w-none mb-12'
             >
               <button className='btn'>Get it now</button>
               <a
@@ -42,7 +42,7 @@ const Banner = () => {
             <Users />
           </div>
           {/* image */}
-          <div data-aos='fade-down' data-aos-delay='800'>
+          <div data-aos='fade-up' data-aos-delay='800'>
             <img src={Img} alt='' />
           </div>
         </div>

@@ -11,7 +11,7 @@ import { BsFillCircleFill } from 'react-icons/bs';
 const Users = () => {
   return (
     <div
-      data-aos='fade-up'
+      data-aos='fade-down'
       data-aos-delay='900'
       className='flex items-center space-x-5'
     >
