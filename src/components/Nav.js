@@ -2,16 +2,22 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className='hidden lg:flex'>
       <ul className='flex items-center space-x-12 font-secondary'>
         <li>
-          <a href='#'>Home</a>
+          <a className='nav-link' href='#'>
+            Home
+          </a>
         </li>
         <li>
-          <a href='#'>Company</a>
+          <a className='nav-link' href='#'>
+            Company
+          </a>
         </li>
         <li>
-          <a href='#'>Features</a>
+          <a className='nav-link' href='#'>
+            Features
+          </a>
         </li>
         <li className='btn'>
           <a href='#'>Sign up</a>

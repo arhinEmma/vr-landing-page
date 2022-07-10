@@ -17,7 +17,10 @@
   a {
     @apply text-[15px] font-medium;
   }
+  .nav-link {
+    @apply hover:after:w-4 hover:after:h-[3px] hover:after:absolute hover:after:rounded-full hover:after:top-6 hover:after:left-0 hover:after:bg-gradient-to-l hover:after:from-[#b936f5] hover:after:to-[#f1006c] hover:after:transition-all relative hover:transition-all transition-all;
+  }
   .btn {
-    @apply font-medium h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center;
+    @apply font-medium h-12 px-8 bg-gradient-to-r from-[#b936f5] to-[#f1006c] rounded text-[15px] hover:bg-gradient-to-l hover:from-[#b936f5] hover:to-[#f1006c] outline-none flex items-center justify-center cursor-pointer;
   }
 }

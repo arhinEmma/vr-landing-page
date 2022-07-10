@@ -10,7 +10,7 @@ const Video = () => {
         <div className='flex flex-col justify-center items-center text-center lg:flex-row lg:justify-between'>
           <h3
             data-aos='fade-right'
-            data-aos-offset='400'
+            data-aos-offset='350'
             className='text-2xl font-semibold mb-8 lg:mb-0'
           >
             Awesome experiences with virtual reality world
@@ -24,7 +24,7 @@ const Video = () => {
           />
           <div
             data-aos='fade-left'
-            data-aos-offset='400'
+            data-aos-offset='350'
             className='bg-videoBg bg-no-repeat bg-cover w-[270px] h-[180px] flex items-center justify-center'
           >
             <div onClick={() => setOpen(!isOpen)} className='cursor-pointer'>
