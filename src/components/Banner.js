@@ -33,7 +33,7 @@ const Banner = () => {
             >
               <button className='btn'>Get it now</button>
               <a
-                className='border-b-2 border-transparent hover:border-white'
+                className='border-b-2 border-transparent hover:border-white transition ease-out'
                 href='#'
               >
                 Explore Device

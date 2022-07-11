@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../modalVideo.scss';
 import ModalVideo from 'react-modal-video';
 import { BsPlayCircleFill } from 'react-icons/bs';
+
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
   return (
