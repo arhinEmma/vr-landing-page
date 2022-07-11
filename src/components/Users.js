@@ -10,7 +10,7 @@ import { BsFillCircleFill } from 'react-icons/bs';
 
 const Users = () => {
   return (
-    <div
+    <section
       className='flex flex-col justify-center items-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start'
       data-aos='fade-down'
       data-aos-delay='900'
@@ -33,7 +33,7 @@ const Users = () => {
         <BsFillCircleFill className='text-xs text-green-500 animate-pulse' />
         <div>400k people online</div>
       </div>
-    </div>
+    </section>
   );
 };
 

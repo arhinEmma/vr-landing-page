@@ -3,6 +3,9 @@ import React from 'react';
 import Logo from '../assets/img/logo.svg';
 import Nav from './Nav';
 
+// import icons
+import { HiMenu } from 'react-icons/hi';
+
 const Header = () => {
   return (
     <header
@@ -19,6 +22,8 @@ const Header = () => {
           </a>
           {/* nav */}
           <Nav />
+          {/* nav mobile button */}
+          <HiMenu className='lg:hidden text-3xl text-white cursor-pointer' />
         </div>
       </div>
     </header>

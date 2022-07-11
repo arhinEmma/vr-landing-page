@@ -7,6 +7,7 @@ import Video from './components/Video';
 // import aos
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Headsets from './components/Headsets';
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const App = () => {
       <Banner />
       <Experience />
       <Video />
+      <Headsets />
       <div className='h-[2000px]'></div>
     </div>
   );
