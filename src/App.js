@@ -3,11 +3,12 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Experience from './components/Experience';
 import Video from './components/Video';
+import Headsets from './components/Headsets';
+import Testimonial from './components/Testimonial';
 
 // import aos
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import Headsets from './components/Headsets';
 
 const App = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const App = () => {
       <Experience />
       <Video />
       <Headsets />
+      <Testimonial />
       <div className='h-[2000px]'></div>
     </div>
   );

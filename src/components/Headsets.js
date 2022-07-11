@@ -25,7 +25,7 @@ const Headsets = () => {
             data-aos-offset='300'
           >
             <img src={Headset1Img} alt='' />
-            <div className='absolute bottom-0 bg-white/30 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
+            <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
               <h4 className='font-semibold text-xl mb-2'>Metaverse</h4>
               <p>
                 A Network of 3D virtual worlds focused on social connection.
@@ -39,7 +39,7 @@ const Headsets = () => {
             data-aos-offset='300'
           >
             <img src={Headset2Img} alt='' />
-            <div className='absolute bottom-0 bg-white/30 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
+            <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
               <h4 className='font-semibold text-xl mb-2'>AIoT</h4>
               <p>
                 AI and IoT are both emerging innovative technologies with a lot
@@ -54,7 +54,7 @@ const Headsets = () => {
             data-aos-offset='300'
           >
             <img src={Headset3Img} alt='' />
-            <div className='absolute bottom-0 bg-white/30 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
+            <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
               <h4 className='font-semibold text-xl mb-2'>HoloLens</h4>
               <p>
                 HoloLens display information, blend with the real world , or
@@ -69,7 +69,7 @@ const Headsets = () => {
             data-aos-offset='300'
           >
             <img src={Headset4Img} alt='' />
-            <div className='absolute bottom-0 bg-white/30 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
+            <div className='absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6'>
               <h4 className='font-semibold text-xl mb-2'>TPCASTT</h4>
               <p>
                 Method is great to start students reading and inferring with
