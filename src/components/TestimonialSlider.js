@@ -16,18 +16,29 @@ export const TestimonialSlider = () => {
     <Swiper
       slidesPerView={3}
       spaceBetween={30}
-      pagination={{
-        clickable: true,
-      }}
       modules={[Pagination]}
       className='mySwiper'
     >
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 1</SwiperSlide>
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 2</SwiperSlide>
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 3</SwiperSlide>
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 4</SwiperSlide>
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 5</SwiperSlide>
-      <SwiperSlide className='bg-white/10 min-h-[240px]'>Slide 6</SwiperSlide>
+      {/* linear-gradient(0deg, #130613 0%, #2A1428 51.15%, #331A35 102.63%); */}
+
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 1
+      </SwiperSlide>
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 2
+      </SwiperSlide>
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 3
+      </SwiperSlide>
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 4
+      </SwiperSlide>
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 5
+      </SwiperSlide>
+      <SwiperSlide className='min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]'>
+        Slide 6
+      </SwiperSlide>
     </Swiper>
   );
 };
