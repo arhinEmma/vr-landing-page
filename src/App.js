@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Video from './components/Video';
 import Headsets from './components/Headsets';
 import Testimonial from './components/Testimonial';
+import Explore from './components/Explore';
 
 // import aos
 import Aos from 'aos';
@@ -25,7 +26,8 @@ const App = () => {
       <Video />
       <Headsets />
       <Testimonial />
-      <div className='h-[2000px]'></div>
+      <Explore />
+      {/* <div className='h-[2000px]'></div> */}
     </div>
   );
 };
