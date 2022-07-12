@@ -15,13 +15,13 @@ const Explore = () => {
           >
             Explore product in new way
           </h3>
-          <p className='max-w-xs text-xl'>
+          <p className='max-w-xs text-xl mb-6'>
             We specialize in creating visual identities for products and brands
             in your company.
           </p>
-          <form>
+          <form className='flex gap-x-4'>
             <input
-              className='bg-gradient-to-t from-[#341D38] to-[#271223] outline-none'
+              className='bg-gradient-to-t from-[#341D38] to-[#271223] h-12 px-4 outline-none rounded-md'
               type='text'
             />
             <button className='btn'>Start</button>
