@@ -34,7 +34,7 @@ const Headsets = () => {
           </div>
           <div
             className='relative'
-            data-aos-delay='1500'
+            data-aos-delay='1300'
             data-aos='zoom-in'
             data-aos-offset='300'
           >
@@ -49,7 +49,7 @@ const Headsets = () => {
           </div>
           <div
             className='relative'
-            data-aos-delay='2000'
+            data-aos-delay='1600'
             data-aos='zoom-in'
             data-aos-offset='300'
           >
@@ -64,7 +64,7 @@ const Headsets = () => {
           </div>
           <div
             className='relative'
-            data-aos-delay='2500'
+            data-aos-delay='1900'
             data-aos='zoom-in'
             data-aos-offset='300'
           >
