@@ -2,7 +2,7 @@ import React from 'react';
 
 const Explore = () => {
   return (
-    <section className='h-[400px]'>
+    <section className='min-h-[400px] mb-20'>
       <div className='container mx-auto h-full'>
         <div className='h-full bg-explore bg-no-repeat bg-cover p-14 flex flex-col items-start justify-center'>
           <h3
