@@ -9,7 +9,7 @@ const Testimonial = () => {
           <div className='text-center'>
             <h2
               data-aos='fade-up'
-              data-aos-offset='900'
+              data-aos-offset='1000'
               data-aos-delay='1000'
               className='text-3xl font-bold mb-6'
             >

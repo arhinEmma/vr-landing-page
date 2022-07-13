@@ -8,7 +8,7 @@ const NavMobile = ({ setNavMobile }) => {
     <nav className='lg:hidden bg-[#251f3f] w-full h-full'>
       <IoClose
         onClick={() => setNavMobile(false)}
-        className='text-3xl absolute left-4 top-4'
+        className='text-3xl absolute left-4 top-4 cursor-pointer'
       />
       <ul className='flex flex-col items-center justify-center h-full font-secondary space-y-8'>
         <li>

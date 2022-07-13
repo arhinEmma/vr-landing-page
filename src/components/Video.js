@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import '../modalVideo.scss';
+
 import ModalVideo from 'react-modal-video';
+import '../modalVideo.scss';
+// import icons
 import { BsPlayCircleFill } from 'react-icons/bs';
 
 const Video = () => {

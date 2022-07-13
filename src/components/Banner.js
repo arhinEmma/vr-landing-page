@@ -6,7 +6,7 @@ import Users from './Users';
 
 const Banner = () => {
   return (
-    <section className='min-h-[600px] pt-24 pb-12 text-center relative -z-10 lg:pt-48 lg:pb-0 lg:text-left'>
+    <section className='min-h-[600px] pt-24 pb-12 text-center relative  lg:pt-48 lg:pb-0 lg:text-left'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
           {/* text */}
