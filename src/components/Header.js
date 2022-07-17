@@ -1,4 +1,5 @@
 import React from 'react';
+
 // import components
 import Logo from '../assets/img/logo.svg';
 import Nav from './Nav';
@@ -22,7 +23,7 @@ const Header = ({ setNavMobile }) => {
           </a>
           {/* nav */}
           <Nav />
-          {/* nav mobile button */}
+          {/* nav mobile btn */}
           <HiMenu
             onClick={() => setNavMobile(true)}
             className='lg:hidden text-3xl text-white cursor-pointer'

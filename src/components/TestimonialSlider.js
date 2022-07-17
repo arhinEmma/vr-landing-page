@@ -1,16 +1,15 @@
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+import React from 'react';
+// import swiper react components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
+// import swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-// import './styles.css';
 // import required modules
 import { Pagination } from 'swiper';
 // import data
 import { slider } from '../data';
 
-export const TestimonialSlider = () => {
+const TestimonialSlider = () => {
   return (
     <Swiper
       breakpoints={{
@@ -27,10 +26,9 @@ export const TestimonialSlider = () => {
           spaceBetween: 30,
         },
       }}
-      modules={[Pagination]}
-      className='mySwiper'
     >
       {slider.map((slide, index) => {
+        // destructure slide
         const { message, image, name, email } = slide;
         return (
           <SwiperSlide
@@ -53,3 +51,5 @@ export const TestimonialSlider = () => {
     </Swiper>
   );
 };
+
+export default TestimonialSlider;

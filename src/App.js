@@ -1,36 +1,35 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+
 // import components
-import Header from './components/Header';
 import Banner from './components/Banner';
+import Header from './components/Header';
+import NavMobile from './components/NavMobile';
 import Experience from './components/Experience';
 import Video from './components/Video';
 import Headsets from './components/Headsets';
 import Testimonial from './components/Testimonial';
 import Explore from './components/Explore';
-import NavMobile from './components/NavMobile';
 
-// import aos
+// import aos (animate on scroll)
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
 
+  // aos initialization
   useEffect(() => {
     Aos.init({
       duration: 2500,
       delay: 400,
     });
-  }, []);
+  });
+
   return (
-    <div className='relative overflow-hidden before:hidden before:lg:flex before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px]'>
+    <div className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px] before:hidden before:lg:flex'>
       <Header setNavMobile={setNavMobile} />
       <Banner />
-      <Experience />
-      <Video />
-      <Headsets />
-      <Testimonial />
-      <Explore />
+      {/* mobile nav */}
       <div
         className={`${
           navMobile ? 'right-0' : '-right-full'
@@ -38,7 +37,11 @@ const App = () => {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
-      {/* <div className='h-[2000px]'></div> */}
+      <Experience />
+      <Video />
+      <Headsets />
+      <Testimonial />
+      <Explore />
     </div>
   );
 };

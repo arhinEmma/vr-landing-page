@@ -4,20 +4,14 @@ const Nav = () => {
   return (
     <nav className='hidden lg:flex'>
       <ul className='flex items-center space-x-12 font-secondary'>
-        <li>
-          <a className='nav-link' href='#'>
-            Home
-          </a>
+        <li className='nav-link'>
+          <a href='#'>Home</a>
         </li>
-        <li>
-          <a className='nav-link' href='#'>
-            Company
-          </a>
+        <li className='nav-link'>
+          <a href='#'>Company</a>
         </li>
-        <li>
-          <a className='nav-link' href='#'>
-            Features
-          </a>
+        <li className='nav-link'>
+          <a href='#'>Features</a>
         </li>
         <li className='btn'>
           <a href='#'>Sign up</a>

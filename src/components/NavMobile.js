@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import icon
+// import icons
 import { IoClose } from 'react-icons/io5';
 
 const NavMobile = ({ setNavMobile }) => {
@@ -8,23 +8,17 @@ const NavMobile = ({ setNavMobile }) => {
     <nav className='lg:hidden bg-[#251f3f] w-full h-full'>
       <IoClose
         onClick={() => setNavMobile(false)}
-        className='text-3xl absolute left-4 top-4 cursor-pointer'
+        className='text-3xl absolute left-4 top-6 cursor-pointer'
       />
-      <ul className='flex flex-col items-center justify-center h-full font-secondary space-y-8'>
-        <li>
-          <a className='text-lg' href='#'>
-            Home
-          </a>
+      <ul className='flex flex-col items-center justify-center space-y-8 h-full font-secondary'>
+        <li className='text-lg'>
+          <a href='#'>Home</a>
         </li>
-        <li>
-          <a className='text-lg' href='#'>
-            Company
-          </a>
+        <li className='text-lg'>
+          <a href='#'>Company</a>
         </li>
-        <li>
-          <a className='text-lg' href='#'>
-            Features
-          </a>
+        <li className='text-lg'>
+          <a href='#'>Features</a>
         </li>
         <li className='btn'>
           <a href='#'>Sign up</a>

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// import images
 import Avatar1 from '../assets/img/avt1.png';
 import Avatar2 from '../assets/img/avt2.png';
 import Avatar3 from '../assets/img/avt3.png';
@@ -10,7 +11,7 @@ import { BsFillCircleFill } from 'react-icons/bs';
 
 const Users = () => {
   return (
-    <section
+    <div
       className='flex flex-col justify-center items-center space-x-5 space-y-2 lg:flex-row lg:space-y-0 lg:justify-start'
       data-aos='fade-down'
       data-aos-delay='900'
@@ -33,7 +34,7 @@ const Users = () => {
         <BsFillCircleFill className='text-xs text-green-500 animate-pulse' />
         <div>400k people online</div>
       </div>
-    </section>
+    </div>
   );
 };
 
